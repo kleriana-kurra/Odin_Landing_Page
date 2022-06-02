@@ -50,7 +50,7 @@ body {
 
 /* Hero Part */
 
-.hero0 {
+.hero {
     display: flex;
     color: #F9FAF8;
     background-color: #1F2937;
@@ -59,7 +59,7 @@ body {
     padding: 90px;
 }
 
-.hero1 {
+.hero-cta {
     flex-basis: 400px;
     display: flex;
     flex-direction: column;
@@ -67,8 +67,8 @@ body {
     margin-right: 50px;
 }
 
-.hero-1 p {
-    font-family: 'Nunito', sans-serif;;
+.hero-cta p {
+    font-family: 'Roboto', arial;
     opacity: 0.7;
 }
 
@@ -77,10 +77,10 @@ h1 {
     font-weight: bold;
     color: #F9FAF8;
     margin: 0;
-    font-family: 'Nunito', sans-serif;;
+    font-family: 'Roboto', arial;
 }
 
-.hero0 button {
+.hero button {
     display: block;
     text-align: center;
     width: 110px;
@@ -89,20 +89,22 @@ h1 {
     padding: 10px;
     border-radius: 8px;
     color: #fff;
-    font-family: 'Nunito', sans-serif;;
+    font-family: 'Roboto', arial;
     text-decoration: none;
     font-weight: bold;
 }
 
-.hero-2 img {
+.hero-image img {
     width: 500px;
     height: auto;
 }
+
 
 /* Content Part */
 
 .content {
     align-items: center;
+    padding: 50px;
 }
 
 .content-info {
@@ -127,7 +129,7 @@ h1 {
     display: flex;
     flex-direction: column;
     background-color: #E5E7EB;
-    padding: 0 200px;
+    padding: 100px;
     
 }
 
@@ -155,37 +157,45 @@ h1 {
     display: flex;
     align-items: center;
     border-radius: 5px;
-    border-color: none;
+    border-color: white;
 }
 
 .sign-item {
     flex: 1;
 }
 
-.sign-text {
+.signs-text {
     text-align: left;
 }
 
-.sign-text p {
-    color: #fff;
+.signs-text p {
+    color: white;
     opacity: 0.7;
     margin: 5px 30px 30px 50px;
 }
 
 h3 {
-    color: #fff;
-    font-family: 'Nunito', sans-serif;;
+    color: white;
+    font-family: 'Nunito', sans-serif;
     padding: 0;
     margin: 30px 0px 0px 50px;
 }
 
-.sign-button button {
+.signs-button button {
     color: #fff;
     font-family: 'Nunito', sans-serif;
-    border-color: #fff;
+    border-color: white;
     border-radius: 8px;
     background-color: #3882F6;
     padding: 5px 25px;
     font-size: 15px;
 }
 
+/* Footer */
+
+.footer {
+    background-color: #1F2937;
+    color: #fff;
+    font-family: 'Nunito', sans-serif;
+    padding: 24px;
+}
